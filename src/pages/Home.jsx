@@ -15,9 +15,9 @@ function Home() {
             className="border-r-2 border-gray-400 w-[200px]"
             /> 
             <div className="flex flex-col gap-2 justify-center items-center">
+            <h1 className="text-center text-[30px] text-green-600 font-bold" >AGROINDUSTRIA</h1>
             <h1 className="text-center text-xl text-green-600 font-bold" >CENTRO DE GESTIÓN Y DESARROLLO SOSTENIBLE SURCOLOMBIANO</h1>
             <h1 className="text-center text-xl text-green-600 font-semibold" >SENA - YAMBORÓ</h1>
-            <h1 className="text-center text-xl text-green-600 font-semibold" >AGROINDUSTRIA</h1>
             </div>
            </div>
         </div>

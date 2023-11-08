@@ -34,12 +34,12 @@ function Register() {
     <div className="flex h-screen">
       <Navbar />
       <Sidebar />
-      <div className="w-full pt-24 flex flex-col justify-center items-center">
+      <div className="w-full pt-24 flex flex-col bg-gray-200 justify-center items-center">
         <h1 className="font-bold text-green-600 p-2">REGISTRAR EQUIPO</h1>
         <form
           onSubmit={handleSubmit}
           method="post"
-          className="flex flex-col w-1/3 gap-1 bg-gray-200 p-4 rounded-2xl"
+          className="flex flex-col w-1/3 gap-1 p-4 shadow-green-700 shadow-lg bg-white rounded-2xl"
         >
           <label className="mt-1 font-bold text-sm">NÚMERO DE REFERENCIA</label>
           <input
@@ -47,7 +47,7 @@ function Register() {
             id="num_referencia"
             name="num_referencia"
             placeholder="Ingrese número de referencia"
-            className="rounded-xl p-1"
+            className="rounded-sm p-1 bg-gray-100 "
             ref={num_referencia}
           />
 
@@ -57,7 +57,7 @@ function Register() {
             id="nombre"
             name="nombre"
             placeholder="Ingrese el nombre"
-            className="rounded-xl p-1"
+            className="rounded-sm p-1 bg-gray-100 "
             ref={nombre}
           />
 
@@ -67,7 +67,7 @@ function Register() {
             id="fecha_ingreso"
             name="fecha_ingreso"
             placeholder="Ingresa fecha de ingreso"
-            className="rounded-xl p-1"
+            className="rounded-sm p-1 bg-gray-100 "
             ref={fecha_ingreso}
           />
 
@@ -77,7 +77,7 @@ function Register() {
             id="descripcion"
             name="descripcion"
             placeholder="Ingrese una descripción"
-            className="rounded-xl p-1"
+            className="rounded-sm bg-gray-100  p-1"
             ref={descripcion}
           />
 
@@ -87,7 +87,7 @@ function Register() {
             id="tipo"
             name="tipo"
             placeholder="Ingrese tipo de equipo"
-            className="rounded-xl p-1"
+            className="rounded-sm bg-gray-100  p-1"
            ref={tipo}
           />
 
@@ -97,7 +97,7 @@ function Register() {
             id="estado"
             name="estado"
             placeholder="Ingrese estado"
-            className="rounded-xl p-1"
+            className="rounded-sm bg-gray-100  p-1"
             ref={estado}
           />
 
